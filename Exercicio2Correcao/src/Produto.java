@@ -13,7 +13,7 @@ public class Produto {
         this.Quantidade = Quantidade;
     }
     
-    // método para retornar os dados do filme
+    // metodo para retornar os dados do filme
  	public String getDados() {
  		
  		String aux = "";

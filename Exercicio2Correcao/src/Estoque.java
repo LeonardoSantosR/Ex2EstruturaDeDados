@@ -53,7 +53,7 @@ public class Estoque {
     
 
     
-    //Método global para realizar as buscas
+    //Metodo global para realizar as buscas
     public No Pesquisar(String Nome){
         No x = Inicio;
         boolean achou = false;
@@ -68,7 +68,7 @@ public class Estoque {
     }
     
     
-    //Remoção de produto
+    //Remocao de produto
     
     
     public boolean remover(String Nome){
@@ -109,14 +109,14 @@ public class Estoque {
         return realizado;
     }
 
-// Método usado para realizar a impressão
+// Método usado para realizar a impressao
     public void imprimir(){
         No x = Inicio;
         while(x!=null){
         	
             JOptionPane.showMessageDialog(null, "Produto: " + x.dado.getNome() + "\nData de validade: " + x.dado.getValidade() + "\nQuantidade: " + x.dado.getQuantidade());
             x = x.dir;
-     //tentei usar o getDados pra usar aqui mas não deu certo, usei separado mesmo
+     //tentei usar o getDados pra usar aqui mas nao deu certo, usei separado mesmo
         }
     }
 

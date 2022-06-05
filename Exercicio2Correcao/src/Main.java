@@ -15,7 +15,7 @@ public class Main {
     	opcao = parseInt(showInputDialog(Util.Menu()));
     			if (opcao < 1|| opcao >5) {
     				
-    				showMessageDialog(null, "Opcao inválida");
+    				showMessageDialog(null, "Opcao invalida");
     			}else {
     				
     				switch(opcao) {
